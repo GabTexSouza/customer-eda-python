@@ -1,33 +1,26 @@
-# Análise exploratória de clientes com Python
+# Resumo executivo
 
-Este projeto é uma análise exploratória de uma base de clientes. A ideia é entender o perfil dos clientes, padrões de consumo e possíveis diferenças entre grupos.
+Este projeto analisou uma base de clientes com o objetivo de entender perfil, renda, comportamento de compra e diferenças entre grupos de gasto.
 
-Usei Python para limpar os dados, criar algumas variáveis e gerar visualizações que ajudam a responder perguntas simples de negócio.
+## Principais conclusões
 
-## Perguntas que quero responder
+A análise mostrou uma relação positiva entre renda e gasto total. Clientes com maior renda tendem a gastar mais e também realizar mais compras.
 
-- Qual é o perfil geral dos clientes?
-- Como idade e renda se relacionam com o gasto?
-- Quais categorias concentram mais consumo?
-- Existem grupos de clientes com comportamentos diferentes?
-- Que pontos chamam atenção para uma análise de marketing ou retenção?
+Também foi observado que clientes com mais filhos em casa apresentaram, em média, menor gasto total nas categorias analisadas.
 
-## Ferramentas
+A segmentação simples por gasto separou os clientes em três grupos: baixo gasto, médio gasto e alto gasto. O grupo de alto gasto teve renda média maior, menor média de filhos e maior volume médio de compras.
 
-- Python
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- Jupyter Notebook
+## Números principais
 
-## Estrutura
+| Segmento | Clientes | Renda média | Média de filhos | Gasto médio | Compras médias |
+|---|---:|---:|---:|---:|---:|
+| Baixo gasto | 738 | 32.724 | 1,28 | 51,35 | 4,71 |
+| Médio gasto | 737 | 50.950 | 1,11 | 414,76 | 13,06 |
+| Alto gasto | 738 | 73.034 | 0,45 | 1.354,70 | 19,93 |
 
-```text
-customer-eda-python/
-├── data/
-├── notebooks/
-├── outputs/
-├── reports/
-├── requirements.txt
-└── README.md
+## Possíveis próximos passos
+
+- Avaliar quais categorias de produto mais diferenciam os segmentos.
+- Analisar resposta dos segmentos a campanhas.
+- Criar uma segmentação mais detalhada.
+- Desenvolver um dashboard com os principais indicadores.
