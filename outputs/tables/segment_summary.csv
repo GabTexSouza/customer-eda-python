@@ -1,0 +1,4 @@
+Spending_Segment,customers,avg_income,avg_age,avg_children,avg_spent,avg_purchases
+Baixo gasto,738,32724.48,53.84,1.28,51.35,4.71
+Médio gasto,737,50949.98,58.51,1.11,414.76,13.06
+Alto gasto,738,73033.54,58.9,0.45,1354.7,19.93
